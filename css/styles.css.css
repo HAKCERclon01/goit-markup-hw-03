@@ -46,6 +46,7 @@ span {
 .address{
   margin-left: 25px;
   margin-top: 23px;
+  gap: 40px;
 }
 .logo{
   margin-top: -74px;
@@ -733,6 +734,7 @@ team-text .button-web-site-p {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 .button-p {
   padding: 12px 24px;
   border-radius: 4px;
