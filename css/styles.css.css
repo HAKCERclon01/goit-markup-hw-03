@@ -29,10 +29,6 @@ span {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.logo {
-  margin-top: -135px;
-  margin-left: 50px;
-}
 
 .main-link {
   font-weight: 500;
@@ -45,21 +41,16 @@ span {
 .address{
   gap: 40px;
 }
-.logo{
-  margin-top: -74px;
-}
-
-.mail{
-  margin-left: 85px;
-}
-.tell{
-  margin-left: -85px;
-}
 
 .main-link:focus {
   color: #404bbf;
 }
-
+.logo{
+  margin-top: 25px;
+}
+.list-item{
+  margin-top: 100px;
+}
 
 .footer-logo{
   font-family: "Raleway", sans-serif;
@@ -165,7 +156,7 @@ span {
   height: 72px;
   border-bottom: 1px solid #e7e9fc;
 }
-logo
+
 .main{
   width: 1158px;
 }
@@ -546,9 +537,7 @@ body {
   padding: 0 15px;
 }
 
-.logo {
-  margin-right: 76px;
-}
+logo
 
 .nav {
   display: flex; 
@@ -559,14 +548,6 @@ body {
   gap: 40px;
 }
 
-.list-item:not(:last-child) {
-  margin-right: 40px;
-}
-
-.list-item:last-child {
-  margin-right: 0;
-}
-
 .main-link {
   padding: 24px 0;
 }
@@ -575,13 +556,10 @@ body {
   gap: 40px;
 }
 
-.header-address .list-item:not(:last-child) {
+.header-address .list-item {
   margin-right: 100px;
 }
 
-.header-address .list-item:last-child {
-  margin-right: 0;
-}
 .hero {
   padding: 188px 0;
 }
@@ -942,7 +920,7 @@ hero-button
 .footer-svg {
   fill: #f4f4fd;
 }
-
+logo
 .hero-link-p{
   display: block;
 }
@@ -957,24 +935,22 @@ hero-button
   position: absolute;
   max-width: 264px
 }
-.contacts-div{
-  margin-left: 60px;
-}
+
 .header-list {
   gap: 40px;
 }
 .hero{
   width: 1158px;
 }
-.header-list{
-  padding-bottom: 55px;
+.about{
+  width: 1158px;
 }
-.list-item{
-  margin-top: -15px;
+.aboutcan{
+  width: 1158px;
 }
-.mail{
-  margin-top: 5px;
+.team{
+  width: 1158px;
 }
-.tell{
-  margin-top: 5px;
+.footer{
+  width: 1158px;
 }
