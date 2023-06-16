@@ -46,6 +46,10 @@ span {
   margin-left: 25px;
   margin-top: 23px;
   gap: 40px;
+  display: block;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 .logo{
   margin-top: -74px;
@@ -542,8 +546,6 @@ body {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 .logo {
