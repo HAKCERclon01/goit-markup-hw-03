@@ -558,9 +558,7 @@ body {
   gap: 40px;
 }
 
-.header-address .list-item:not(:last-child) {
-  margin-right: 100px;
-}
+
 
 .header-address .list-item:last-child {
   margin-right: 0;
