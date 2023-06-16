@@ -2,6 +2,8 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
+  width: 1158px;
+  margin: 0 auto;
 }
 
 :root {
@@ -697,9 +699,7 @@ body {
   margin-bottom: 16px;
   margin-right: 76px;
 }
-.footer-text {
-  max-width: 264px;
-}
+
 .footer-text {
   display: inline-block;
 }
@@ -898,7 +898,6 @@ body {
 .div-footer {
   align-items: baseline;
 }
-
 .footer-logo{
   display: inline-block;
   margin-bottom: 16px;
@@ -959,8 +958,9 @@ body {
 }
 .footer-text{
   margin-top: 60px;
-  margin-left: -270px;
+  margin-left: 170px;
   position: absolute;
+  max-width: 264px
 }
 .contacts-div{
   margin-left: 60px;
