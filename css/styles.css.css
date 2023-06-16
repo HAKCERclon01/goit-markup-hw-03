@@ -542,6 +542,10 @@ body {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+  display: block;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .logo {
@@ -952,6 +956,7 @@ body {
 .footer-logo{
   margin-top: 10px;
   margin-left: 170px;
+  display: inline-block;
 }
 .footer-text{
   margin-top: 60px;
