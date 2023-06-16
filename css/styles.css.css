@@ -42,20 +42,9 @@ span {
 }
 
 .address{
-  margin-left: 25px;
-  margin-top: 23px;
   gap: 40px;
 }
-.logo{
-  margin-top: -74px;
-}
 
-.mail{
-  margin-left: 85px;
-}
-.tell{
-  margin-left: -85px;
-}
 
 .main-link:focus {
   color: #404bbf;
