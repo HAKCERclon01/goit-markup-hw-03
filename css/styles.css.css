@@ -50,10 +50,7 @@ span {
 .logo{
   margin-top: -74px;
 }
-.header-list {
-  gap: 40px;
-  margin-top: -1px;
-}
+
 .mail{
   margin-left: 85px;
 }
@@ -81,7 +78,7 @@ span {
 }
 
 .hero-button {
-  margin-left: 75px;
+  margin-left: -100px;
 }
 .header-nav {
   font-family: "Roboto";
@@ -167,6 +164,7 @@ span {
 }
 .header {
   height: 72px;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .hero-button {
@@ -186,7 +184,10 @@ span {
   font-family: "Roboto", sans-serif;
   cursor: pointer;
 }
-
+.header-list {
+  gap: 40px;
+  margin-top: -1px;
+}
 .hero-button:hover {
   background-color: #404bbf;
   color: #ffffff;
