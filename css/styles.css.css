@@ -41,17 +41,15 @@ span {
   color: #2e2f42;
 }
 
-.address{
+.address {
   gap: 40px;
 }
-
 
 .main-link:focus {
   color: #404bbf;
 }
 
-
-.footer-logo{
+.footer-logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -60,9 +58,6 @@ span {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-}
-.footer-logo{
-  margin-top: -15px;
 }
 
 .hero-button {
@@ -126,6 +121,7 @@ span {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
 .list-style {
   font-family: "Roboto";
   font-style: normal;
@@ -171,6 +167,7 @@ span {
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   cursor: pointer;
+  margin-left: -230px;
 }
 
 .hero-button:hover {
@@ -537,7 +534,7 @@ body {
 }
 
 .nav {
-  display: flex; 
+  display: flex;
   align-items: center;
 }
 
@@ -584,7 +581,6 @@ body {
 .aboutcan-item {
   width: calc((100% - 48px) / 3);
 }
-
 
 .hero-button {
   display: block;
@@ -879,11 +875,10 @@ body {
   margin-right: 0;
 }
 
-
 .div-footer {
   align-items: baseline;
 }
-.footer-logo{
+.footer-logo {
   display: inline-block;
   margin-bottom: 16px;
 }
@@ -900,7 +895,7 @@ body {
   margin-right: 0;
 }
 
-.team-social-network-link:hover{
+.team-social-network-link:hover {
   background-color: #404bbf;
 }
 .footer-list {
@@ -933,23 +928,62 @@ body {
   fill: #f4f4fd;
 }
 
-.hero-link-p{
+.hero-link-p {
   display: block;
 }
-.footer-logo{
+.footer-logo {
   margin-top: 10px;
   margin-left: 170px;
   display: inline-block;
 }
-.footer-text{
+.footer-text {
   margin-top: 60px;
   margin-left: -270px;
   position: absolute;
-  max-width: 264px
+  max-width: 264px;
 }
-.contacts-div{
+.contacts-div {
   margin-left: 60px;
 }
 .header-list {
   gap: 40px;
+}
+
+.logo{
+  margin-left: -30px;
+  margin-top: -55px;
+}
+.nav{
+  margin-top: -20px;
+  margin-left: 30px;
+}
+.div-header{
+  margin-left: 70px;
+  margin-top: 20px;
+}
+.footer{
+  width: 1158px;
+}
+.footer-logo{
+  margin-left: 50px;
+  margin-top: 0px;
+}
+.footer-text{
+  margin-left: -190px;
+  margin-top: 30px;
+}
+.team{
+  width: 1158px;
+}
+.aboutcan{
+  width: 1158px;  
+}
+.about{
+  width: 1158px; 
+}
+.hero{
+  width: 1158px; 
+}
+.header{
+  width: 1158px; 
 }
