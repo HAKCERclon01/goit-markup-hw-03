@@ -2,7 +2,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
-  width: 1158px;
+  margin: 0;
 }
 
 :root {
@@ -43,13 +43,7 @@ span {
 }
 
 .address{
-  margin-left: 25px;
-  margin-top: 23px;
   gap: 40px;
-  display: block;
-  margin-top: 0;
-  margin-left: 0;
-  margin-right: 0;
 }
 .logo{
   margin-top: -74px;
@@ -82,7 +76,7 @@ span {
 }
 
 .hero-button {
-  margin-left: -100px;
+  margin-left: -115px;
 }
 .header-nav {
   font-family: "Roboto";
@@ -167,10 +161,14 @@ span {
   color: #ffffff;
 }
 .header {
+  width: 1158px;
   height: 72px;
   border-bottom: 1px solid #e7e9fc;
 }
-
+logo
+.main{
+  width: 1158px;
+}
 .hero-button {
   position: absolute;
   width: 169px;
@@ -715,7 +713,6 @@ body {
 .list {
   justify-content: center;
   gap: 24px;
-  margin-bottom: 72px;
 }
 
 .link {
@@ -793,10 +790,7 @@ body {
   margin-bottom: 0px;
   padding-left: 0px;
 }
-.header {
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-}
+
 .hero {
   max-width: 1440px;
   background-repeat: no-repeat;
@@ -925,7 +919,7 @@ body {
   margin: 0;
   padding: 0;
 }
-
+hero-button
 .footer-item {
   width: 40px;
   height: 40px;
@@ -952,7 +946,6 @@ body {
 .hero-link-p{
   display: block;
 }
-
 .footer-logo{
   margin-top: 10px;
   margin-left: 170px;
@@ -960,7 +953,7 @@ body {
 }
 .footer-text{
   margin-top: 60px;
-  margin-left: 170px;
+  margin-left: -270px;
   position: absolute;
   max-width: 264px
 }
@@ -969,5 +962,19 @@ body {
 }
 .header-list {
   gap: 40px;
-  margin-top: -1px;
+}
+.hero{
+  width: 1158px;
+}
+.header-list{
+  padding-bottom: 55px;
+}
+.list-item{
+  margin-top: -15px;
+}
+.mail{
+  margin-top: 5px;
+}
+.tell{
+  margin-top: 5px;
 }
