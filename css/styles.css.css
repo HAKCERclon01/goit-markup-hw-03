@@ -2,8 +2,6 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
-  width: 1158px;
-  margin: 0 auto;
 }
 
 :root {
@@ -417,7 +415,7 @@ body {
   color: #ffffff;
   background-color: #404bbf;
 }
-team-text .button-web-site-p {
+.button-web-site-p {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -543,8 +541,8 @@ team-text .button-web-site-p {
 }
 .container {
   width: 1158px;
-  padding: 0 15px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .logo {
