@@ -184,10 +184,7 @@ span {
   font-family: "Roboto", sans-serif;
   cursor: pointer;
 }
-.header-list {
-  gap: 40px;
-  margin-top: -1px;
-}
+
 .hero-button:hover {
   background-color: #404bbf;
   color: #ffffff;
@@ -964,4 +961,8 @@ body {
 }
 .contacts-div{
   margin-left: 60px;
+}
+.header-list {
+  gap: 40px;
+  margin-top: -1px;
 }
