@@ -155,7 +155,7 @@ span {
   position: absolute;
   width: 169px;
   height: 56px;
-  left: 760px;
+  left: 880px;
   top: 500px;
   font-family: "Roboto";
   font-style: normal;
@@ -835,6 +835,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
 .logos-link {
   display: flex;
   height: 100%;
@@ -952,7 +953,7 @@ body {
   margin-top: -55px;
 }
 .footer{
-  width: 1158px;
+  width: 1440px;
 }
 .footer-logo{
   margin-left: 50px;
@@ -962,15 +963,25 @@ body {
   margin-left: -190px;
   margin-top: 30px;
 }
+.header{
+  width: 1440px;
+}
 .team{
-  width: 1158px;
+  width: 1440px;
 }
 .aboutcan{
-  width: 1158px;  
+  width: 1440px;  
 }
 .about{
-  width: 1158px; 
+  width: 1440px; 
 }
 .hero{
-  width: 1158px; 
+  width: 1440px; 
+}
+.header-list{
+  position: absolute;
+  left: 300px;
+}
+.address{
+  margin-left: 550px;
 }
