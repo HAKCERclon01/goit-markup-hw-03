@@ -985,3 +985,9 @@ body {
 .address{
   margin-left: 550px;
 }
+.footer-text-p{
+  margin-top: -20px;
+  margin-left: 50px;
+  position: absolute;
+  max-width: 264px;
+}
