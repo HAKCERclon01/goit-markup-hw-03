@@ -145,7 +145,7 @@ header-list
   font-size: 56px;
   line-height: 1.07em;
   text-align: center;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.01em;
   color: #ffffff;
   margin-top: 10px;
 }
@@ -560,8 +560,9 @@ body {
 }
 
 .hero-tagline {
-  max-width: 500px;
+  max-width: 496px;
   margin-left: 350px;
+
 }
 .special {
   display: flex;
