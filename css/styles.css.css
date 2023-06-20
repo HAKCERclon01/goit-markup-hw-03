@@ -2,8 +2,6 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
-  position: absolute;
-  left: 40px;
 }
 
 :root {
@@ -34,7 +32,6 @@ span {
   margin-top: -135px;
   margin-left: 50px;
 }
-header-list
 .main-link {
   font-weight: 500;
   font-size: 16px;
@@ -50,7 +47,7 @@ header-list
 .main-link:focus {
   color: #404bbf;
 }
-
+mai
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -940,7 +937,7 @@ body {
 }
 .logo {
   margin-left: -30px;
-  margin-top: -55px;
+  margin-top: -57px;
 }
 
 .footer {
@@ -954,6 +951,7 @@ body {
   margin-left: -190px;
   margin-top: 35px;
 }
+
 .header {
   width: 1440px;
 }
@@ -995,5 +993,17 @@ body {
   line-height: 24px;
 }
 .nav{
-  margin-top: 10px;
+  margin-top: 6px;
+}
+.header-address{
+  margin-top: 6px;
+}
+.about-subtitle{
+  margin-top: 67px;
+}
+.aboutcan-tagline{
+  margin-top: 20px;
+}
+.aboutcan-item{
+  margin-top: 0px;
 }
