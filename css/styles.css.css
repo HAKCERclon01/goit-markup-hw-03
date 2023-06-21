@@ -885,26 +885,14 @@ body {
   gap: 20px;
 }
 
-.footer {
-  width: 1158px;
-}
 
 .header {
   width: 1158px;
 }
-.team {
-  width: 1158px;
-}
 .aboutcan {
-  width: 1158px;
   margin-top: -100px;
 }
-
-.about {
-  width: 1158px;
-}
 .hero {
-  width: 1158px;
   height: 550px;
 }
 .footer {
@@ -959,6 +947,9 @@ body {
 .about-item-p{
   width: calc((100% - 48px) / 3);
 }
-.hero-p{
+.main{
+  width: 1158px;
+}
+.main-p{
   width: 1158px;
 }
