@@ -126,7 +126,6 @@ span {
 .hero {
   font-family: "Roboto";
   background: #2e2f42;
-  height: 250px;
 }
 .hero-tagline {
   font-family: "Roboto";
@@ -641,12 +640,7 @@ body {
   margin-right: 76px;
 }
 
-.footer-text {
-  display: inline-block;
-}
-.footer {
-  display: inline-block;
-}
+
 .hero-p {
   padding-top: 96px;
   padding-bottom: 120px;
@@ -731,12 +725,7 @@ body {
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
-.hero {
-  max-width: 1440px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
+
 .div {
   align-items: center;
   justify-content: center;
@@ -885,19 +874,6 @@ body {
   gap: 20px;
 }
 
-.aboutcan {
-  margin-top: -100px;
-}
-.hero {
-  height: 550px;
-}
-.footer {
-  width: 1440px;
-  height: 300px;
-}
-.header{
-  width: 1440px;
-}
 .team-item {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -930,14 +906,12 @@ body {
 }
 .footer-text {
   position: absolute;
-  width: 264px;
   height: 72px;
-  left: 135px;
-  top: 2645px;
+  left: 170px;
+  top: 2755px;
 }
 .footer-text-p {
   position: absolute;
-  width: 264px;
   height: 72px;
   left: 135px;
   top: 2129px;
