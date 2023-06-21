@@ -885,10 +885,6 @@ body {
   gap: 20px;
 }
 
-
-.header {
-  width: 1158px;
-}
 .aboutcan {
   margin-top: -100px;
 }
@@ -896,8 +892,11 @@ body {
   height: 550px;
 }
 .footer {
-  width: 1158px;
+  width: 1440px;
   height: 300px;
+}
+.header{
+  width: 1440px;
 }
 .team-item {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -908,16 +907,16 @@ body {
 }
 .logo {
   margin-top: -71px;
-  margin-left: 30px;
+  margin-left: -25px;
   margin-right: 76px
 }
 .list-item {
   margin-top: -15px;
-  margin-left: -25px;
+  margin-left: 15px;
 }
 .address {
   margin-top: 40px;
-  margin-left: 145px;
+  margin-left: 125px;
 }
 .hero-tagline {
   margin-top: -20px;
@@ -928,7 +927,6 @@ body {
 }
 .footer-logo {
   margin-top: -100px;
-  margin-left: 115px;
 }
 .footer-text {
   position: absolute;
@@ -946,10 +944,4 @@ body {
 }
 .about-item-p{
   width: calc((100% - 48px) / 3);
-}
-.main{
-  width: 1158px;
-}
-.main-p{
-  width: 1158px;
 }
