@@ -959,3 +959,6 @@ body {
 .about-item-p{
   width: calc((100% - 48px) / 3);
 }
+.hero-p{
+  width: 1158px;
+}
