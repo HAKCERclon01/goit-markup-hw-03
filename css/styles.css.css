@@ -565,7 +565,6 @@ body {
 .about-list {
   gap: 24px;
 }
-
 .about-item {
   width: calc((100% - 72px) / 4);
 }
@@ -605,7 +604,7 @@ body {
   overflow: hidden;
 }
 .aboutcan-item {
-  flex-basis: calc((100% - 48px) / 3);
+  width: calc((100% - 48px) / 3);
 }
 .team {
   padding: 120px 0;
@@ -685,6 +684,7 @@ body {
   border: 1px solid;
   border: 1px solid transparent;
 }
+
 .about-item-p {
   flex-wrap: wrap;
   row-gap: 48px;
@@ -745,7 +745,6 @@ body {
   border-radius: 4px;
   margin-bottom: 8px;
 }
-
 .team-social-network {
   display: flex;
   justify-content: center;
@@ -922,14 +921,15 @@ body {
 .logo {
   margin-top: -71px;
   margin-left: -25px;
+  margin-right: 76px
 }
 .list-item {
   margin-top: -15px;
-  margin-left: 17px;
+  margin-left: 15px;
 }
 .address {
   margin-top: 40px;
-  margin-left: 205px;
+  margin-left: 125px;
 }
 .hero-tagline {
   margin-top: -20px;
@@ -954,4 +954,7 @@ body {
   height: 72px;
   left: 135px;
   top: 2129px;
+}
+.about-item-p{
+  width: calc((100% - 48px) / 3);
 }
