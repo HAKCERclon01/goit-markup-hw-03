@@ -28,10 +28,7 @@ span {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.logo {
-  margin-top: -135px;
-  margin-left: 50px;
-}
+
 .main-link {
   font-weight: 500;
   font-size: 16px;
@@ -47,7 +44,6 @@ span {
 .main-link:focus {
   color: #404bbf;
 }
-mai
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -59,9 +55,6 @@ mai
   color: #4d5ae5;
 }
 
-.hero-button {
-  margin-left: -100px;
-}
 .header-nav {
   font-family: "Roboto";
   font-style: normal;
@@ -144,7 +137,6 @@ mai
   text-align: center;
   letter-spacing: 0.01em;
   color: #ffffff;
-  margin-top: 10px;
 }
 
 .header {
@@ -153,11 +145,6 @@ mai
 }
 
 .hero-button {
-  position: absolute;
-  width: 169px;
-  height: 56px;
-  left: 880px;
-  top: 450px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -168,7 +155,6 @@ mai
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   cursor: pointer;
-  margin-left: -230px;
 }
 
 .hero-button:hover {
@@ -196,11 +182,11 @@ mai
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5em;
-  letter-spacing: 0.01em;
+  letter-spacing: -0.01em;
   color: #434455;
   max-width: 480px;
-
 }
+
 .about-subtitle {
   font-family: "Roboto";
   font-style: normal;
@@ -209,8 +195,6 @@ mai
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  position: absolute;
-  top: 760px;
 }
 
 .aboutcan-img {
@@ -517,10 +501,6 @@ body {
   padding: 0 15px;
 }
 
-.logo {
-  margin-right: 76px;
-}
-
 .nav {
   display: flex;
   align-items: center;
@@ -558,8 +538,6 @@ body {
 
 .hero-tagline {
   max-width: 496px;
-  margin-left: 350px;
-
 }
 .special {
   display: flex;
@@ -635,9 +613,6 @@ body {
 .team-tagline {
   margin-bottom: 72px;
   display: block;
-  margin-top: 0;
-  margin-left: 0;
-  margin-right: 0;
 }
 
 .team-list {
@@ -733,8 +708,6 @@ body {
   margin-bottom: 72px;
   flex-wrap: wrap;
   row-gap: 48px;
-  margin-top: 0px;
-  padding-left: 0px;
 }
 
 .about-subtitle-p {
@@ -754,11 +727,6 @@ body {
   border: 1px solid transparent;
 }
 
-.list-p {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding-left: 0px;
-}
 .header {
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -814,8 +782,6 @@ body {
 .logos-list {
   display: flex;
   gap: 24px;
-  margin-top: 0px;
-  padding-left: 0px;
 }
 .logos-item {
   width: calc((100% - 120px) / 6);
@@ -845,7 +811,6 @@ body {
 }
 
 .logos {
-  padding-top: 120px;
   padding-bottom: 120px;
 }
 .logos-svg {
@@ -857,9 +822,6 @@ body {
   color: #2e2f42;
   margin-bottom: 72px;
   display: block;
-  margin-top: 0;
-  margin-left: 0;
-  margin-right: 0;
 }
 
 .div-footer {
@@ -869,6 +831,7 @@ body {
   display: inline-block;
   margin-bottom: 16px;
 }
+
 .social-media {
   font-weight: 500;
   font-size: 16px;
@@ -877,9 +840,6 @@ body {
   color: #ffffff;
   margin-bottom: 16px;
   display: block;
-  margin-top: 0;
-  margin-left: 0;
-  margin-right: 0;
 }
 
 .team-social-network-link:hover {
@@ -918,38 +878,16 @@ body {
 .hero-link-p {
   display: block;
 }
-.footer-logo {
-  margin-top: 10px;
-  margin-left: 170px;
-  display: inline-block;
-}
+
 .footer-text {
-  margin-top: 60px;
-  margin-left: -270px;
-  position: absolute;
   max-width: 264px;
 }
-.contacts-div {
-  margin-left: 60px;
-}
 .header-list {
-  gap: 40px;
-}
-.logo {
-  margin-left: -30px;
-  margin-top: -57px;
+  gap: 20px;
 }
 
 .footer {
   width: 1440px;
-}
-.footer-logo {
-  margin-left: 10px;
-  margin-top: 0px;
-}
-.footer-text {
-  margin-left: -190px;
-  margin-top: 35px;
 }
 
 .header {
@@ -960,50 +898,60 @@ body {
 }
 .aboutcan {
   width: 1440px;
-  margin-top: -270px;
+  margin-top: -100px;
 }
+
 .about {
   width: 1440px;
-  height: 345px;
 }
 .hero {
   width: 1440px;
+  height: 550px;
 }
 .footer {
   width: 1440px;
-}
-.header-list {
-  position: absolute;
-  left: 300px;
-}
-.address {
-  margin-left: 550px;
-}
-.footer-text-p {
-  margin-top: -20px;
-  margin-left: 50px;
-  position: absolute;
-  max-width: 264px;
+  height: 300px;
 }
 .team-item {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-.studio{
+.studio {
   line-height: 24px;
 }
-.nav{
-  margin-top: 6px;
+.logo {
+  margin-top: -71px;
+  margin-left: -25px;
 }
-.header-address{
-  margin-top: 6px;
+.list-item {
+  margin-top: -15px;
+  margin-left: 17px;
 }
-.about-subtitle{
-  margin-top: 67px;
+.address {
+  margin-top: 40px;
+  margin-left: 205px;
 }
-.aboutcan-tagline{
-  margin-top: 20px;
+.hero-tagline {
+  margin-top: -20px;
+  margin-left: 345px;
 }
-.aboutcan-item{
-  margin-top: 0px;
+.hero-button {
+  margin-left: 495px;
+}
+.footer-logo {
+  margin-top: -100px;
+}
+.footer-text {
+  position: absolute;
+  width: 264px;
+  height: 72px;
+  left: 135px;
+  top: 2645px;
+}
+.footer-text-p {
+  position: absolute;
+  width: 264px;
+  height: 72px;
+  left: 135px;
+  top: 2129px;
 }
