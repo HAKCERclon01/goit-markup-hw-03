@@ -499,7 +499,7 @@ body {
   align-items: center;
 }
 
-.list {
+.list-p {
   gap: 40px;
 }
 
@@ -645,7 +645,11 @@ body {
   gap: 24px;
   margin-bottom: 72px;
 }
-
+.list-p {
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
 .link {
   display: inline-block;
 }
