@@ -938,9 +938,10 @@ body {
 }
 .footer-text-p {
   position: absolute;
+  width: 300px;
   height: 72px;
-  left: 135px;
-  top: 2129px;
+  left: 170px;
+  top: 2127px;
 }
 .about-item-p{
   width: calc((100% - 48px) / 3);
