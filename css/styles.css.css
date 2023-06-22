@@ -1038,7 +1038,7 @@ body {
 .about-item{
   width: calc((100% - 72px) / 4);
 }
-list-p
+
 .list{
   margin: 0;
   padding: 0;
@@ -1053,4 +1053,22 @@ list-p
 
 .footer-logo{
   display: inline-block;
+}
+.list-button-p{
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+.footer-link{
+  display: inline-block; 
+}
+.footer-logo{
+  display: inline-block; 
 }
