@@ -27,6 +27,7 @@ span {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .main-link {
@@ -1106,6 +1107,7 @@ body {
   vertical-align: baseline;
   text-decoration: none;
 }
+
 .footer-logo {
   position: absolute;
 }
