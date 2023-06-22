@@ -656,6 +656,14 @@ body {
   font-family: inherit;
   vertical-align: baseline;
 }
+.list-button-p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
 .team-div {
   padding: 32px 16px;
 }
@@ -741,6 +749,14 @@ body {
   border-top: none;
   margin-bottom: 8px;
 }
+.list-battion-p {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+  flex-wrap: wrap;
+  row-gap: 48px;
+}
 .list-p {
   display: flex;
   justify-content: center;
@@ -749,7 +765,6 @@ body {
   flex-wrap: wrap;
   row-gap: 48px;
 }
-
 .about-subtitle-p {
   margin-bottom: 8px;
 }
@@ -964,7 +979,7 @@ body {
 .hero-button {
   margin-left: 500px;
 }
-list-p
+
 .container {
   width: 1158px;
   margin: 0 auto;
@@ -1023,6 +1038,7 @@ list-p
 .about-item{
   width: calc((100% - 72px) / 4);
 }
+list-p
 .list{
   margin: 0;
   padding: 0;
@@ -1034,9 +1050,7 @@ list-p
 .aboutcan-tagline{
   margin-bottom: 72px;
 }
-.list-p{
-  gap: 24px;
-}
+
 .footer-logo{
-  gap: 24px;
+  display: inline-block;
 }
