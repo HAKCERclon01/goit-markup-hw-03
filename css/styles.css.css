@@ -54,7 +54,16 @@ span {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-
+.footer-logo-p {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17em;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
 .header-nav {
   font-family: "Roboto";
   font-style: normal;
@@ -64,6 +73,7 @@ span {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
 .header-address {
   font-family: "Roboto";
   font-style: normal;
@@ -281,11 +291,23 @@ span {
   color: #f4f4fd;
   text-decoration: none;
 }
+.footer-text-p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5em;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  text-decoration: none;
+}
 
 .footer {
   background: #2e2f42;
 }
-
+.footer-p {
+  background: #2e2f42;
+}
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -475,7 +497,7 @@ body {
 .footer-logo:focus {
   color: #4d5ae5;
 }
-.footer-logo-p:focus {
+.logo-footer-p:focus {
   color: #4d5ae5;
 }
 .span-footer {
@@ -616,7 +638,7 @@ body {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
-.header-list{
+.header-list {
   margin: 0;
   padding: 0;
   border: 0;
@@ -624,7 +646,7 @@ body {
   font-family: inherit;
   vertical-align: baseline;
 }
-.about-list{
+.about-list {
   margin: 0;
   padding: 0;
   border: 0;
@@ -632,7 +654,7 @@ body {
   font-family: inherit;
   vertical-align: baseline;
 }
-.aboutcan-list{
+.aboutcan-list {
   margin: 0;
   padding: 0;
   border: 0;
@@ -640,7 +662,7 @@ body {
   font-family: inherit;
   vertical-align: baseline;
 }
-.team-list{
+.team-list {
   margin: 0;
   padding: 0;
   border: 0;
@@ -655,7 +677,9 @@ body {
   font-size: 100%;
   font-family: inherit;
   vertical-align: baseline;
+  list-style: none;
 }
+
 .list-button-p {
   margin: 0;
   padding: 0;
@@ -663,6 +687,7 @@ body {
   font-size: 100%;
   font-family: inherit;
   vertical-align: baseline;
+  list-style: none;
 }
 .team-div {
   padding: 32px 16px;
@@ -677,7 +702,6 @@ body {
   margin-bottom: 16px;
   margin-right: 76px;
 }
-
 
 .list {
   justify-content: center;
@@ -877,7 +901,10 @@ body {
   display: inline-block;
   margin-bottom: 16px;
 }
-
+.footer-logo-p {
+  display: inline-block;
+  margin-bottom: 16px;
+}
 .social-media {
   font-weight: 500;
   font-size: 16px;
@@ -939,20 +966,7 @@ body {
 .studio {
   line-height: 24px;
 }
-.logo {
-  margin-top: -71px;
-  margin-left: 35px;
-  margin-right: 76px;
-}
-.list-item {
-  margin-top: -15px;
-  margin-left: -35px;
-}
 
-.address {
-  margin-top: 40px;
-  margin-left: 210px;
-}
 .hero-tagline {
   margin-top: 0px;
   margin-left: 345px;
@@ -1009,6 +1023,10 @@ body {
   width: 1158px;
   padding: 100px 0;
 }
+.footer-p {
+  width: 1158px;
+  padding: 100px 0;
+}
 .hero-p {
   width: 1158px;
   padding-top: 96px;
@@ -1025,7 +1043,7 @@ body {
   top: 320px;
 }
 
-.footer-logo{
+.footer-logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -1035,11 +1053,10 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.about-item{
+.about-item {
   width: calc((100% - 72px) / 4);
 }
-
-.list{
+.list {
   margin: 0;
   padding: 0;
   border: 0;
@@ -1047,14 +1064,14 @@ body {
   font-family: inherit;
   vertical-align: baseline;
 }
-.aboutcan-tagline{
+.aboutcan-tagline {
   margin-bottom: 72px;
 }
 
-.footer-logo{
+.footer-logo {
   display: inline-block;
 }
-.list-button-p{
+.list-button-p {
   display: flex;
   justify-content: center;
   gap: 24px;
@@ -1066,9 +1083,77 @@ body {
   font-family: inherit;
   vertical-align: baseline;
 }
-.footer-link{
-  display: inline-block; 
+.footer-link {
+  display: inline-block;
 }
-.footer-logo{
-  display: inline-block; 
+.footer-logo {
+  display: inline-block;
+}
+.footer-logo {
+  position: absolute;
+  top: 2280px;
+  left: 100px;
+}
+.footer-text {
+  position: absolute;
+  top: 2300px;
+}
+.footer-logo {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  text-decoration: none;
+}
+.footer-logo {
+  position: absolute;
+}
+.logo {
+  position: absolute;
+  top: 24px;
+  left: 56px;
+}
+.header-list {
+  position: absolute;
+  top: -2px;
+  left: 230px;
+  gap: 24px;
+}
+.address {
+  position: absolute;
+  top: 24px;
+  left: 740px;
+}
+.list-button-p {
+  position: absolute;
+  top: 168px;
+  left: 307px;
+  gap: 24px;
+}
+.list-p {
+  position: absolute;
+  top: 288px;
+  left: 15px;
+  Width: 1128px;
+}
+.footer-p {
+  position: absolute;
+  width: 1158px;
+  top: 1884px;
+}
+.header{
+  width: 1158px;
+}
+.logo-footer-p{
+  position: absolute;
+  top: 76px;
+}
+.footer{
+  height: 250px;
+}
+.footer-text-p{
+  position: absolute;
+  top: 96px;
+  left: 100px;
 }
