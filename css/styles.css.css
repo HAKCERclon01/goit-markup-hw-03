@@ -616,6 +616,38 @@ body {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
+.header-list{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+.about-list{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+.aboutcan-list{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+.team-list{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
 .list-p {
   margin: 0;
   padding: 0;
@@ -932,7 +964,7 @@ body {
 .hero-button {
   margin-left: 500px;
 }
-
+list-p
 .container {
   width: 1158px;
   margin: 0 auto;
@@ -976,4 +1008,35 @@ body {
 .hero-button {
   position: absolute;
   top: 320px;
+}
+
+.footer-logo{
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17em;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.about-item{
+  width: calc((100% - 72px) / 4);
+}
+.list{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+.aboutcan-tagline{
+  margin-bottom: 72px;
+}
+.list-p{
+  gap: 24px;
+}
+.footer-logo{
+  gap: 24px;
 }
