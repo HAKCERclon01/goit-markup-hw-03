@@ -621,8 +621,22 @@ body {
 }
 
 .team-item {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+}
+.list-p{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
 }
 .team-div {
   padding: 32px 16px;
