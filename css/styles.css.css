@@ -576,7 +576,6 @@ body {
   color: #2e2f42;
 }
 
-
 .aboutcan-list {
   gap: 24px;
 }
@@ -617,7 +616,7 @@ body {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
-.list-p{
+.list-p {
   margin: 0;
   padding: 0;
   border: 0;
@@ -640,15 +639,12 @@ body {
 }
 
 
-.hero-p {
-  padding-top: 96px;
-}
-.list{
+.list {
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
 }
-.hero-p{
+.hero-p {
   justify-content: center;
   gap: 24px;
 }
@@ -657,7 +653,6 @@ body {
   gap: 24px;
   margin-bottom: 72px;
 }
-aboutcan-tagline
 .list-p {
   justify-content: center;
   gap: 24px;
@@ -666,7 +661,7 @@ aboutcan-tagline
 .link {
   display: inline-block;
 }
-.aboutcan-list{
+.aboutcan-list {
   margin: 0;
   padding: 0;
   border: 0;
@@ -817,7 +812,6 @@ aboutcan-tagline
   color: #404bbf;
 }
 
-
 .logos-svg {
   fill: currentColor;
 }
@@ -901,7 +895,7 @@ aboutcan-tagline
 .logo {
   margin-top: -71px;
   margin-left: 35px;
-  margin-right: 76px
+  margin-right: 76px;
 }
 .list-item {
   margin-top: -15px;
@@ -921,51 +915,72 @@ aboutcan-tagline
   margin-left: 495px;
 }
 .footer-logo {
-  margin-top: -100px;
-  margin-left: 133px;
+  position: absolute;
+  top: 2000px;
+  left: 65px;
 }
 
 .footer-text {
-  margin-left: 135px;
-  margin-top: -20px;
+  position: absolute;
+  top: 1952px;
+  left: 100px;
 }
 .footer-text-p {
   position: absolute;
   width: 300px;
   height: 72px;
   left: 170px;
-  top: 2127px;
+  top: 2137px;
 }
-.about-item-p{
+.about-item-p {
   width: calc((100% - 48px) / 3);
 }
-.hero-button{
+.hero-button {
   margin-left: 500px;
 }
 
-.container{
+.container {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
-.header{
+.header {
   width: 1158px;
 }
-.hero{
+.hero {
+  width: 1158px;
+  height: 550px;
+}
+
+.about {
   width: 1158px;
 }
-.about{
+.aboutcan {
   width: 1158px;
 }
-.aboutcan{
+.team {
   width: 1158px;
 }
-.team{
+.footer {
+  width: 1158px;
+  height: 218px;
+}
+.hero-p {
   width: 1158px;
 }
-.footer{
-  width: 1158px;
+.hero-tagline {
+  position: absolute;
+  width: 496px;
+  height: 120px;
+  top: 260px;
 }
-.hero-p{
-  width: 1158px;
+.hero-button {
+  position: absolute;
+  top: 420px;
+}
+.main-p{
+  margin-top: 80px;
+}
+.footer-p{
+  margin-top: -10px;
 }
