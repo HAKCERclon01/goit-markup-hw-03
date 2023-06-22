@@ -916,22 +916,16 @@ body {
 }
 .footer-logo {
   position: absolute;
-  top: 2000px;
+  top: 2450px;
   left: 65px;
 }
 
 .footer-text {
   position: absolute;
-  top: 1952px;
+  top: 2407px;
   left: 100px;
 }
-.footer-text-p {
-  position: absolute;
-  width: 300px;
-  height: 72px;
-  left: 170px;
-  top: 2137px;
-}
+
 .about-item-p {
   width: calc((100% - 48px) / 3);
 }
@@ -949,38 +943,37 @@ body {
 }
 .hero {
   width: 1158px;
-  height: 550px;
+  padding: 188px 0;
 }
 
 .about {
   width: 1158px;
+  padding: 120px 0;
 }
 .aboutcan {
   width: 1158px;
+  padding-bottom: 120px;
 }
 .team {
   width: 1158px;
+  padding: 120px 0;
 }
 .footer {
   width: 1158px;
-  height: 218px;
+  padding: 100px 0;
 }
 .hero-p {
   width: 1158px;
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 .hero-tagline {
   position: absolute;
   width: 496px;
   height: 120px;
-  top: 260px;
+  top: 170px;
 }
 .hero-button {
   position: absolute;
-  top: 420px;
-}
-.main-p{
-  margin-top: 80px;
-}
-.footer-p{
-  margin-top: -10px;
+  top: 320px;
 }
