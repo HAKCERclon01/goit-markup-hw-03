@@ -673,6 +673,14 @@ body {
 .link {
   display: inline-block;
 }
+.aboutcan-list{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
