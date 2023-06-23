@@ -1050,11 +1050,18 @@ body {
   width: 1158px;
   padding: 100px 0;
 }
-.footer-p{
-  width: 1158px;
-  padding: 100px 0;
+.logo{
+  margin-right: 76px;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
 }
-.footer-p {
+.header-list{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.footer-p{
   width: 1158px;
   padding: 100px 0;
 }
@@ -1199,8 +1206,18 @@ body {
   margin-top: 0px;
   margin-left: 86px;
 }
-
+.button-list-p{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 72px;
+}
 .footer-text-p{
   margin-top: 0px;
   margin-left: 86px;
+}
+.footer-logo{
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
 }
