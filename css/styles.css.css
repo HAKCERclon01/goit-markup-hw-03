@@ -1070,16 +1070,7 @@ body {
   padding-top: 96px;
   padding-bottom: 120px;
 }
-.hero-tagline {
-  position: absolute;
-  width: 496px;
-  height: 120px;
-  top: 170px;
-}
-.hero-button {
-  position: absolute;
-  top: 320px;
-}
+
 
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -1138,46 +1129,8 @@ body {
   margin-bottom: 16px;
 }
 
-
-.logo {
-  position: absolute;
-  top: 24px;
-  left: 56px;
-}
-.header-list {
-  position: absolute;
-  top: -2px;
-  left: 230px;
-  gap: 24px;
-}
-.address {
-  position: absolute;
-  top: 24px;
-  left: 740px;
-}
-.list-button-p {
-  position: absolute;
-  top: 168px;
-  left: 307px;
-  gap: 24px;
-}
-.list-p {
-  position: absolute;
-  top: 288px;
-  left: 15px;
-  Width: 1128px;
-}
-.footer-p {
-  position: absolute;
-  width: 1158px;
-  top: 1884px;
-}
 .header{
   width: 1158px;
-}
-.logo-footer-p{
-  position: absolute;
-  top: 76px;
 }
 .button-list-p{
   list-style: none;
@@ -1216,9 +1169,28 @@ body {
   margin-top: 0px;
   margin-left: 86px;
 }
+
 .footer-logo{
   text-decoration: none;
   margin: 0;
   padding: 0;
   margin-bottom: 16px;
+}
+.nav{
+  margin-left: 71px;
+  margin-left: 100px;
+}
+.logo{
+  margin-top: 1px;
+  margin-left: -75px;
+}
+.address{
+  margin-top: 25px;
+  margin-left: 40px;
+}
+.list-item{
+  margin-left: 50px;
+}
+.footer-logo{
+  margin-left: 82px;
 }
