@@ -1183,6 +1183,7 @@ body {
 .logo{
   margin-top: 1px;
   margin-left: -75px;
+  margin-right: 76px;
 }
 .address{
   margin-top: 25px;
@@ -1193,4 +1194,5 @@ body {
 }
 .footer-logo{
   margin-left: 82px;
+  margin-right: 76px;
 }
