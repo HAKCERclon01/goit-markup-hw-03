@@ -407,14 +407,7 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.visually-hidden {
-  position: absolute !important;
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
-  clip: rect(1px, 1px, 1px, 1px);
-  white-space: nowrap;
-}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
